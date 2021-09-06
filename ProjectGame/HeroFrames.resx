@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="archerleftdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerleftwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerleftwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archerrightwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\archerrightwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mageleftwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mageleftwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magerightwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\magerightwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorleftwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorleftwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightdown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightdown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightjump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightshoot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightshoot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightshoot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightshoot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightshoot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightshoot3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightstand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightstand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightstand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightstand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightstand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightstand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightstand4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightstand4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightstand5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightstand5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightwalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightwalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightwalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightwalk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightwalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightwalk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warriorrightwalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\warriorrightwalk4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
