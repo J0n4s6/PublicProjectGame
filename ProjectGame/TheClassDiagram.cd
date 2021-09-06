@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="ProjectGame.ShowOffForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgUCAAAAFAIACAAAACQCAgAAQEAAgAAAQBAIQ=</HashCode>
+      <FileName>Forms\ShowOffForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MenuForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShowOffForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Classes.Arrow" Collapsed="true">
+    <Position X="3.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAQACAAAAAAAIAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Arrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Character" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WAIkqBmMpsEMLN4dYA2SAalCJ6AhQMOEKyGAJkCRIgI=</HashCode>
+      <FileName>Classes\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Consumable" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAACCAEIABAAEIQAAAAAAAEAA=</HashCode>
+      <FileName>Classes\Consumable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Cooldown" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAQCAAABAAAQAACAAEIAJAAAAIAAAAAgAAAA=</HashCode>
+      <FileName>Classes\Cooldown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Enemy" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAqAACAAAAAIAAAAAAAAQAAACAAAAoYAABIAABAAA=</HashCode>
+      <FileName>Classes\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.FileOperation" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FileOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Floor" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAIIBAACAAAAAAACAAAIACACEIQAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Hero" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAABAAAAAAAAAIAACAiAAAAA=</HashCode>
+      <FileName>Classes\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.LvlPassFloor" Collapsed="true">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQCAAABAAEAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\LvlPassFloor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.MagicBall" Collapsed="true">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAIQCAIALgEIAgACCAAICAAIAIQAAAAAAABAA=</HashCode>
+      <FileName>Classes\MagicBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Classes.Manager" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>FUcCA4QMEMQgCg9ADEIoACisESRBgCAhBIgThwoIBgI=</HashCode>
+      <FileName>Classes\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StaticAttack" />
+      <Property Name="Consumable" />
+      <Property Name="Floor" />
+      <Property Name="Arrow" />
+      <Property Name="MagicBall" />
+      <Property Name="Hero" />
+      <Property Name="Enemy" />
+      <Property Name="Cooldown" />
+      <Property Name="LvlPassFloor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Classes.StaticAttack" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oCAAAQAIcAAIIAZEAIAIqCAACIAAgAgJQgAAgAAABCA=</HashCode>
+      <FileName>Classes\StaticAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Forms.CharacterSelectForm" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkEOAACAAAABAgQSCEEgKAREFAAAAAIARAAAAAQg=</HashCode>
+      <FileName>Forms\CharacterSelectForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Forms.GameForm" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQkESIgCKAokAgAhQCUIBgGYQAEBQAAANIgAIBQAAg=</HashCode>
+      <FileName>Forms\GameForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager" />
+      <Property Name="PauseForm" />
+      <Property Name="GameOverForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Forms.GameOverForm" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAISACAAAIAQAACIAAgCAAAAAAAAEIQACAABAAA=</HashCode>
+      <FileName>Forms\GameOverForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PlayerFile" />
+      <Property Name="InstructionsForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Forms.HighscoresForm" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABDIQAIBAhQGAAAgCAQAAAAAAIIAA+AAAAAg=</HashCode>
+      <FileName>Forms\HighscoresForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Forms.InstructionsForm" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAEAgQCAAAgCAQAAAAACAIAAEAAAAAg=</HashCode>
+      <FileName>Forms\InstructionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectGame.Forms.MenuForm" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACECAAAAgYCASAACAQAKAAIAAISECAAIAAg=</HashCode>
+      <FileName>Forms\MenuForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HighscoresForm" />
+      <Property Name="InstructionsForm" />
+      <Property Name="CharacterSelectForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProjectGame.Forms.PauseForm" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKEAAAAAAACAQAACAAAAAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>Forms\PauseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ProjectGame.Classes.PlayerFile" Collapsed="true">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAIAAAAAAAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Classes\FileOperation.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

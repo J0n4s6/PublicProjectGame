@@ -1,0 +1,7 @@
+walk
+stand
+hurt
+die
+
+
+(twice each for right and left)

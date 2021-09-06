@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ArcherBoost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherBoost9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherBoost9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowEffect9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowEffect9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowHit8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowHit8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherLeftArrowThrow7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherLeftArrowThrow7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowEffect9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowEffect9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowHit8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowHit8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcherRightArrowThrow7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArcherRightArrowThrow7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRain9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRain9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ArrowRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSwordsPlay9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSwordsPlay9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageHeal9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageHeal9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftBoost9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftBoost9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallEffect7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallEffect7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallHit7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallHit7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallThrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallThrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallThrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallThrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageLeftEnergyBallThrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageLeftEnergyBallThrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageRightBoost9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MageRightBoost9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallEffect7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallEffect7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallHit7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallHit7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallThrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallThrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallThrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallThrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightEnergyBallThrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightEnergyBallThrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSwordsPlay9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightSwordsPlay9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorAttackBoost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorAttackBoost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorAttackBoost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorAttackBoost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorAttackBoost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorAttackBoost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorAttackBoost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorAttackBoost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorAttackBoost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorAttackBoost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorDefenseBoost9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarriorDefenseBoost9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
