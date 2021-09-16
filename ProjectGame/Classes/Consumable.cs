@@ -53,7 +53,7 @@ namespace ProjectGame.Classes
         /// פעולה שמחזירה את סוג המצרך
         /// </summary>
         /// <returns>סוג המצרך</returns>
-        public ConsumableType GetType()
+        public new ConsumableType GetType()
         {
             return this.type;
         }

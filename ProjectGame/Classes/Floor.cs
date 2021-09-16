@@ -86,7 +86,7 @@ namespace ProjectGame.Classes
         /// פעולה Get
         /// </summary>
         /// <returns>מחזיר את סוג הריצפה</returns>
-        public BackgroundType GetType()
+        public new BackgroundType GetType()
         {
             return this.bgtype;
         }

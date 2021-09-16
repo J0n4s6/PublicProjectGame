@@ -541,7 +541,7 @@ namespace ProjectGame.Classes
         /// מחזיר את סוג הדמות
         /// </summary>
         /// <returns></returns>
-        public CharacterType GetType()
+        public new CharacterType GetType()
         { return this.type; }
         /// <summary>
         /// מחזיר את הכיוון של הדמות
