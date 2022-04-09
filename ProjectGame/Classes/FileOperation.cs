@@ -34,7 +34,9 @@ namespace ProjectGame.Classes
             pl.score4 = score4;
             pl.totalscore = score1 + (score2 * 2) + (score3 * 3) + (score4 * 4);
             pl.champ = champ;
-            List<PlayerFile> list = LoadPlayer();            
+            List<PlayerFile> list = LoadPlayer();
+            if (list == null)
+                list = new List<PlayerFile>();
             list.Add(pl);
             list.Sort(Max);
             StreamWriter sw = new StreamWriter("..\\..\\Resources\\HighScores.txt", false);
@@ -49,6 +51,8 @@ namespace ProjectGame.Classes
         public static List<PlayerFile> LoadPlayer()
         {
             List<PlayerFile> list = new List<PlayerFile>();
+            if (!File.Exists("..\\..\\Resources\\HighScores.txt"))
+                return null;
             StreamReader sr = new StreamReader("..\\..\\Resources\\HighScores.txt", true);
             PlayerFile pl;
             string line = sr.ReadLine();
