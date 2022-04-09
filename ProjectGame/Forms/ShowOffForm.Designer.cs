@@ -46,11 +46,12 @@
             this.launchButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.launchButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.launchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.launchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.launchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.launchButton.ForeColor = System.Drawing.Color.White;
-            this.launchButton.Location = new System.Drawing.Point(349, 334);
+            this.launchButton.Location = new System.Drawing.Point(352, 320);
+            this.launchButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.launchButton.Name = "launchButton";
-            this.launchButton.Size = new System.Drawing.Size(150, 50);
+            this.launchButton.Size = new System.Drawing.Size(175, 58);
             this.launchButton.TabIndex = 2;
             this.launchButton.UseVisualStyleBackColor = false;
             this.launchButton.Click += new System.EventHandler(this.launchButton_Click);
@@ -66,11 +67,12 @@
             this.exitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.exitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.exitButton.ForeColor = System.Drawing.Color.White;
-            this.exitButton.Location = new System.Drawing.Point(778, 421);
+            this.exitButton.Location = new System.Drawing.Point(777, 456);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(94, 29);
+            this.exitButton.Size = new System.Drawing.Size(110, 33);
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = false;
@@ -82,8 +84,9 @@
             // 
             this.pictureBox.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(883, 328);
+            this.pictureBox.Size = new System.Drawing.Size(876, 293);
             this.pictureBox.TabIndex = 4;
             this.pictureBox.TabStop = false;
             this.pictureBox.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox_Paint);
@@ -96,17 +99,18 @@
             // 
             // ShowOffForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProjectGame.GameResources.ShowOffBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(884, 462);
+            this.ClientSize = new System.Drawing.Size(900, 501);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.launchButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "ShowOffForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome To Final Legend!~";

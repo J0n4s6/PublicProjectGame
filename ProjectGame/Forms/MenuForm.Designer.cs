@@ -44,11 +44,12 @@
             this.playButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.playButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.playButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.playButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.playButton.ForeColor = System.Drawing.Color.White;
-            this.playButton.Location = new System.Drawing.Point(347, 214);
+            this.playButton.Location = new System.Drawing.Point(334, 193);
+            this.playButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.playButton.Name = "playButton";
-            this.playButton.Size = new System.Drawing.Size(150, 50);
+            this.playButton.Size = new System.Drawing.Size(175, 58);
             this.playButton.TabIndex = 1;
             this.playButton.Text = "Play!";
             this.playButton.UseVisualStyleBackColor = false;
@@ -65,11 +66,12 @@
             this.highscoresButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.highscoresButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.highscoresButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.highscoresButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.highscoresButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.highscoresButton.ForeColor = System.Drawing.Color.White;
-            this.highscoresButton.Location = new System.Drawing.Point(722, 332);
+            this.highscoresButton.Location = new System.Drawing.Point(715, 351);
+            this.highscoresButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.highscoresButton.Name = "highscoresButton";
-            this.highscoresButton.Size = new System.Drawing.Size(150, 50);
+            this.highscoresButton.Size = new System.Drawing.Size(175, 58);
             this.highscoresButton.TabIndex = 6;
             this.highscoresButton.Text = "Highscores";
             this.highscoresButton.UseVisualStyleBackColor = false;
@@ -86,11 +88,12 @@
             this.instructionsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.instructionsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.instructionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.instructionsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.instructionsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.instructionsButton.ForeColor = System.Drawing.Color.White;
-            this.instructionsButton.Location = new System.Drawing.Point(722, 261);
+            this.instructionsButton.Location = new System.Drawing.Point(715, 269);
+            this.instructionsButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.instructionsButton.Name = "instructionsButton";
-            this.instructionsButton.Size = new System.Drawing.Size(150, 50);
+            this.instructionsButton.Size = new System.Drawing.Size(175, 58);
             this.instructionsButton.TabIndex = 5;
             this.instructionsButton.Text = "Instructions";
             this.instructionsButton.UseVisualStyleBackColor = false;
@@ -107,11 +110,12 @@
             this.backButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.backButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.backButton.ForeColor = System.Drawing.Color.White;
-            this.backButton.Location = new System.Drawing.Point(722, 400);
+            this.backButton.Location = new System.Drawing.Point(715, 430);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(150, 50);
+            this.backButton.Size = new System.Drawing.Size(175, 58);
             this.backButton.TabIndex = 4;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = false;
@@ -121,11 +125,11 @@
             // 
             // MenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProjectGame.GameResources.MenuBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(884, 462);
+            this.ClientSize = new System.Drawing.Size(900, 501);
             this.ControlBox = false;
             this.Controls.Add(this.highscoresButton);
             this.Controls.Add(this.instructionsButton);
@@ -133,6 +137,7 @@
             this.Controls.Add(this.playButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu =]";

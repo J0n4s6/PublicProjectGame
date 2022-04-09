@@ -60,9 +60,10 @@
             // 
             this.timeLabel.AutoSize = true;
             this.timeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.timeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.timeLabel.ForeColor = System.Drawing.Color.White;
-            this.timeLabel.Location = new System.Drawing.Point(234, 1);
+            this.timeLabel.Location = new System.Drawing.Point(273, 2);
+            this.timeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(110, 29);
             this.timeLabel.TabIndex = 8;
@@ -72,9 +73,10 @@
             // 
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.BackColor = System.Drawing.Color.Transparent;
-            this.scoreLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.scoreLabel.ForeColor = System.Drawing.Color.White;
-            this.scoreLabel.Location = new System.Drawing.Point(741, 1);
+            this.scoreLabel.Location = new System.Drawing.Point(753, 2);
+            this.scoreLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(110, 29);
             this.scoreLabel.TabIndex = 9;
@@ -84,9 +86,10 @@
             // 
             this.textLabel.AutoSize = true;
             this.textLabel.BackColor = System.Drawing.Color.Transparent;
-            this.textLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textLabel.ForeColor = System.Drawing.Color.White;
-            this.textLabel.Location = new System.Drawing.Point(663, 1);
+            this.textLabel.Location = new System.Drawing.Point(663, 2);
+            this.textLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.textLabel.Name = "textLabel";
             this.textLabel.Size = new System.Drawing.Size(77, 29);
             this.textLabel.TabIndex = 10;
@@ -96,9 +99,10 @@
             // 
             this.manaBar.BackColor = System.Drawing.Color.Transparent;
             this.manaBar.BackgroundImage = global::ProjectGame.GameResources.ManaBar;
-            this.manaBar.Location = new System.Drawing.Point(1, 437);
+            this.manaBar.Location = new System.Drawing.Point(3, 471);
+            this.manaBar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.manaBar.Name = "manaBar";
-            this.manaBar.Size = new System.Drawing.Size(600, 20);
+            this.manaBar.Size = new System.Drawing.Size(609, 23);
             this.manaBar.TabIndex = 6;
             this.manaBar.TabStop = false;
             // 
@@ -106,9 +110,10 @@
             // 
             this.backgroundBar2.BackColor = System.Drawing.Color.Transparent;
             this.backgroundBar2.BackgroundImage = global::ProjectGame.GameResources.BackgroundBar;
-            this.backgroundBar2.Location = new System.Drawing.Point(1, 437);
+            this.backgroundBar2.Location = new System.Drawing.Point(3, 471);
+            this.backgroundBar2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.backgroundBar2.Name = "backgroundBar2";
-            this.backgroundBar2.Size = new System.Drawing.Size(608, 20);
+            this.backgroundBar2.Size = new System.Drawing.Size(609, 23);
             this.backgroundBar2.TabIndex = 5;
             this.backgroundBar2.TabStop = false;
             // 
@@ -116,9 +121,10 @@
             // 
             this.healthBar.BackColor = System.Drawing.Color.Transparent;
             this.healthBar.BackgroundImage = global::ProjectGame.GameResources.HealthBar;
-            this.healthBar.Location = new System.Drawing.Point(1, 415);
+            this.healthBar.Location = new System.Drawing.Point(3, 446);
+            this.healthBar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.healthBar.Name = "healthBar";
-            this.healthBar.Size = new System.Drawing.Size(600, 20);
+            this.healthBar.Size = new System.Drawing.Size(609, 23);
             this.healthBar.TabIndex = 4;
             this.healthBar.TabStop = false;
             // 
@@ -126,9 +132,10 @@
             // 
             this.backgroundBar1.BackColor = System.Drawing.Color.Transparent;
             this.backgroundBar1.BackgroundImage = global::ProjectGame.GameResources.BackgroundBar;
-            this.backgroundBar1.Location = new System.Drawing.Point(1, 415);
+            this.backgroundBar1.Location = new System.Drawing.Point(3, 446);
+            this.backgroundBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.backgroundBar1.Name = "backgroundBar1";
-            this.backgroundBar1.Size = new System.Drawing.Size(608, 20);
+            this.backgroundBar1.Size = new System.Drawing.Size(609, 23);
             this.backgroundBar1.TabIndex = 3;
             this.backgroundBar1.TabStop = false;
             // 
@@ -137,9 +144,10 @@
             this.pauseButton.BackColor = System.Drawing.Color.Transparent;
             this.pauseButton.BackgroundImage = global::ProjectGame.GameResources.PauseButton1;
             this.pauseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pauseButton.Location = new System.Drawing.Point(610, 417);
+            this.pauseButton.Location = new System.Drawing.Point(620, 446);
+            this.pauseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pauseButton.Name = "pauseButton";
-            this.pauseButton.Size = new System.Drawing.Size(130, 40);
+            this.pauseButton.Size = new System.Drawing.Size(132, 46);
             this.pauseButton.TabIndex = 2;
             this.pauseButton.TabStop = false;
             this.pauseButton.Click += new System.EventHandler(this.pauseButton_Click);
@@ -150,9 +158,10 @@
             // 
             this.backButton.BackgroundImage = global::ProjectGame.GameResources.BackButton1;
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.backButton.Location = new System.Drawing.Point(746, 417);
+            this.backButton.Location = new System.Drawing.Point(760, 446);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(130, 40);
+            this.backButton.Size = new System.Drawing.Size(136, 46);
             this.backButton.TabIndex = 1;
             this.backButton.TabStop = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
@@ -163,17 +172,18 @@
             // 
             this.arenaBox.BackColor = System.Drawing.Color.Transparent;
             this.arenaBox.Location = new System.Drawing.Point(1, 1);
+            this.arenaBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.arenaBox.Name = "arenaBox";
-            this.arenaBox.Size = new System.Drawing.Size(880, 410);
+            this.arenaBox.Size = new System.Drawing.Size(862, 439);
             this.arenaBox.TabIndex = 0;
             this.arenaBox.TabStop = false;
             this.arenaBox.Paint += new System.Windows.Forms.PaintEventHandler(this.arenaBox_Paint);
             // 
             // GameForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 462);
+            this.ClientSize = new System.Drawing.Size(900, 501);
             this.ControlBox = false;
             this.Controls.Add(this.textLabel);
             this.Controls.Add(this.scoreLabel);
@@ -187,6 +197,7 @@
             this.Controls.Add(this.arenaBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "GameForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GameForm";

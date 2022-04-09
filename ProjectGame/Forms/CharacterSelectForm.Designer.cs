@@ -50,11 +50,12 @@ namespace ProjectGame.Forms
             this.backButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.backButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.backButton.ForeColor = System.Drawing.Color.White;
-            this.backButton.Location = new System.Drawing.Point(722, 400);
+            this.backButton.Location = new System.Drawing.Point(719, 436);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(150, 50);
+            this.backButton.Size = new System.Drawing.Size(175, 58);
             this.backButton.TabIndex = 4;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = false;
@@ -71,11 +72,12 @@ namespace ProjectGame.Forms
             this.startButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.startButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.startButton.ForeColor = System.Drawing.Color.White;
-            this.startButton.Location = new System.Drawing.Point(566, 400);
+            this.startButton.Location = new System.Drawing.Point(537, 436);
+            this.startButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(150, 50);
+            this.startButton.Size = new System.Drawing.Size(175, 58);
             this.startButton.TabIndex = 5;
             this.startButton.Text = "Start!";
             this.startButton.UseVisualStyleBackColor = false;
@@ -93,9 +95,10 @@ namespace ProjectGame.Forms
             this.warriorButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.warriorButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.warriorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.warriorButton.Location = new System.Drawing.Point(154, 178);
+            this.warriorButton.Location = new System.Drawing.Point(180, 205);
+            this.warriorButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.warriorButton.Name = "warriorButton";
-            this.warriorButton.Size = new System.Drawing.Size(94, 112);
+            this.warriorButton.Size = new System.Drawing.Size(110, 129);
             this.warriorButton.TabIndex = 6;
             this.warriorButton.UseVisualStyleBackColor = false;
             this.warriorButton.Click += new System.EventHandler(this.warriorButton_Click);
@@ -112,9 +115,10 @@ namespace ProjectGame.Forms
             this.mageButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.mageButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.mageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.mageButton.Location = new System.Drawing.Point(382, 125);
+            this.mageButton.Location = new System.Drawing.Point(446, 144);
+            this.mageButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mageButton.Name = "mageButton";
-            this.mageButton.Size = new System.Drawing.Size(100, 145);
+            this.mageButton.Size = new System.Drawing.Size(117, 167);
             this.mageButton.TabIndex = 7;
             this.mageButton.UseVisualStyleBackColor = false;
             this.mageButton.Click += new System.EventHandler(this.mageButton_Click);
@@ -131,9 +135,10 @@ namespace ProjectGame.Forms
             this.archerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.archerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.archerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.archerButton.Location = new System.Drawing.Point(626, 176);
+            this.archerButton.Location = new System.Drawing.Point(730, 203);
+            this.archerButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.archerButton.Name = "archerButton";
-            this.archerButton.Size = new System.Drawing.Size(111, 114);
+            this.archerButton.Size = new System.Drawing.Size(130, 132);
             this.archerButton.TabIndex = 8;
             this.archerButton.UseVisualStyleBackColor = false;
             this.archerButton.Click += new System.EventHandler(this.archerButton_Click);
@@ -144,9 +149,10 @@ namespace ProjectGame.Forms
             // 
             this.warriorLabel.AutoSize = true;
             this.warriorLabel.BackColor = System.Drawing.Color.Transparent;
-            this.warriorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.warriorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.warriorLabel.ForeColor = System.Drawing.Color.White;
-            this.warriorLabel.Location = new System.Drawing.Point(169, 350);
+            this.warriorLabel.Location = new System.Drawing.Point(197, 404);
+            this.warriorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.warriorLabel.Name = "warriorLabel";
             this.warriorLabel.Size = new System.Drawing.Size(67, 20);
             this.warriorLabel.TabIndex = 9;
@@ -156,9 +162,10 @@ namespace ProjectGame.Forms
             // 
             this.mageLabel.AutoSize = true;
             this.mageLabel.BackColor = System.Drawing.Color.Transparent;
-            this.mageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.mageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mageLabel.ForeColor = System.Drawing.Color.White;
-            this.mageLabel.Location = new System.Drawing.Point(405, 317);
+            this.mageLabel.Location = new System.Drawing.Point(472, 366);
+            this.mageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mageLabel.Name = "mageLabel";
             this.mageLabel.Size = new System.Drawing.Size(53, 20);
             this.mageLabel.TabIndex = 10;
@@ -168,9 +175,10 @@ namespace ProjectGame.Forms
             // 
             this.archerLabel.AutoSize = true;
             this.archerLabel.BackColor = System.Drawing.Color.Transparent;
-            this.archerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.archerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.archerLabel.ForeColor = System.Drawing.Color.White;
-            this.archerLabel.Location = new System.Drawing.Point(635, 350);
+            this.archerLabel.Location = new System.Drawing.Point(741, 404);
+            this.archerLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.archerLabel.Name = "archerLabel";
             this.archerLabel.Size = new System.Drawing.Size(62, 20);
             this.archerLabel.TabIndex = 11;
@@ -178,11 +186,11 @@ namespace ProjectGame.Forms
             // 
             // CharacterSelectForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProjectGame.GameResources.MenuBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(884, 462);
+            this.ClientSize = new System.Drawing.Size(900, 501);
             this.ControlBox = false;
             this.Controls.Add(this.archerLabel);
             this.Controls.Add(this.mageLabel);
@@ -195,6 +203,7 @@ namespace ProjectGame.Forms
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "CharacterSelectForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select a Character!";
