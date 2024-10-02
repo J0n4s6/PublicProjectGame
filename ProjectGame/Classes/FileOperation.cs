@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Reflection.Metadata;
 
 namespace ProjectGame.Classes
 {
@@ -18,7 +19,7 @@ namespace ProjectGame.Classes
     }
     static class FileOperation
     {
-        
+        private static string _FileName = "HighScores.txt";
         /// <summary>
         /// הפעולה ממיינת ושומרת את חמשת המוב ילים בקובץ טקסט
         /// </summary>
@@ -39,7 +40,7 @@ namespace ProjectGame.Classes
                 list = new List<PlayerFile>();
             list.Add(pl);
             list.Sort(Max);
-            StreamWriter sw = new StreamWriter("..\\..\\Resources\\HighScores.txt", false);
+            StreamWriter sw = new StreamWriter(_FileName, false);
             for (int i = 0; i < list.Count && i < 5; i++)
                 sw.WriteLine(list[i].name + "," + list[i].score1.ToString() + ",," + list[i].score2.ToString() + ",,," + list[i].score3.ToString() + ",,,," + list[i].score4.ToString() + ",,,,," + list[i].totalscore.ToString() + ",,,,,," + list[i].champ);
             sw.Close();
@@ -51,9 +52,9 @@ namespace ProjectGame.Classes
         public static List<PlayerFile> LoadPlayer()
         {
             List<PlayerFile> list = new List<PlayerFile>();
-            if (!File.Exists("..\\..\\Resources\\HighScores.txt"))
+            if (!File.Exists(_FileName))
                 return null;
-            StreamReader sr = new StreamReader("..\\..\\Resources\\HighScores.txt", true);
+            StreamReader sr = new StreamReader(_FileName, true);
             PlayerFile pl;
             string line = sr.ReadLine();
             while (line != null)
